@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Wash - Book Your Car Wash</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: #1a1a1a;
+            background: #f8fafc;
+        }
+        header {
+            background: linear-gradient(135deg, #0ea5e9, #0284c7);
+            color: white;
+            padding: 3rem 1.5rem 4rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 500px;
+            margin: 0 auto 2rem;
+        }
+        .badge {
+            display: inline-block;
+        }
+        .badge img {
+            height: 54px;
+        }
+        .features {
+            max-width: 700px;
+            margin: -2rem auto 0;
+            padding: 0 1.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        }
+        .card h2 {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            color: #0284c7;
+        }
+        .feature-list {
+            list-style: none;
+            display: grid;
+            gap: 1.25rem;
+        }
+        .feature-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            font-size: 1.05rem;
+            line-height: 1.5;
+        }
+        .feature-list li span.icon {
+            font-size: 1.4rem;
+            flex-shrink: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 3rem 1.5rem 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #0284c7;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Clean Wash</h1>
+        <p>The easiest way to book your next car wash. Skip the line, pick your service, and get your car sparkling clean.</p>
+        <a class="badge" href="https://apps.apple.com" aria-label="Download on the App Store">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+        </a>
+    </header>
+
+    <section class="features">
+        <div class="card">
+            <h2>Why Clean Wash?</h2>
+            <ul class="feature-list">
+                <li>
+                    <span class="icon">📅</span>
+                    <span><strong>Easy Booking</strong> &mdash; Pick a date and time that works for you and reserve your spot in seconds.</span>
+                </li>
+                <li>
+                    <span class="icon">🚗</span>
+                    <span><strong>Choose Your Wash</strong> &mdash; Browse available services and select the perfect wash for your vehicle.</span>
+                </li>
+                <li>
+                    <span class="icon">🔔</span>
+                    <span><strong>Reminders</strong> &mdash; Get notified when your appointment is coming up so you never miss a wash.</span>
+                </li>
+                <li>
+                    <span class="icon">⚡</span>
+                    <span><strong>Skip the Wait</strong> &mdash; No more standing in line. Show up at your scheduled time and drive right in.</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Clean Wash. All rights reserved.</p>
+        <p><a href="/privacy">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
